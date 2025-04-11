@@ -20,5 +20,6 @@ jobs:
       - uses: cloudbees-io/kaniko/.cloudbees/testing
         name: Push image to OCI registry
         with:
-          destination: index.docker.io/cbpautomation/python-hello-world-docker:\${{cloudbees.version}}
+          destination: index.docker.io/cbpautomation/python-hello-world-docker:${{cloudbees.version}}
           labels: app=cbp
+
