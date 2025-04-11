@@ -42,7 +42,7 @@ jobs:
         run: |
           echo comments: ${{needs.approval-job.outputs.comments }}
           echo in1 input: ${{ fromJSON(needs.approval-job.outputs.approvalInputValues).in1 }}
-          echo in2 input: ${{ fromJSON(needs.approval-job.outputs.approvalInputValues)?.in2 }}
+          echo in2 input: ${{ fromJSON(needs.approval-job.outputs.approvalInputValues).in2 }}
           
     needs:
       - approval-job
