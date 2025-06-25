@@ -12,5 +12,5 @@ jobs:
           name: "cbpautomation/python-hello-world-docker"
           version: "CORINNE-0.1.19"
           url: "docker.io/cbpautomation/python-hello-world-docker:CORINNE-0.1.19"
-          digest: sha256:f1fcfbd4f96f020407f01146d3311d93c05ee39654934684c27d464a00da7777
+          digest: sha256:f1fcfbd4f96f020407f01146d3311d93c05ee39654934684c27d464a00da6666
           target-environment: PREPROD
