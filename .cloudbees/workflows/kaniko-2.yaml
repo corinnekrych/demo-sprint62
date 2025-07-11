@@ -30,4 +30,4 @@ jobs:
       approvalInputs: |
         {}
     timeout-minutes: 4320
-    delegates: cloudbees-io/manual-approval/.cloudbees/testing/custom-job.yml@CBP-17136
+    delegates: cloudbees-io/manual-approval/custom-job.yml@v1
